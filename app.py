@@ -11,7 +11,7 @@ except Exception as e:
 
 # 2. SerpApi Configuration
 # Paste your private SerpApi token inside the quotes below:
-SERPAPI_API_KEY = "2243c085ce34cd5222b86258bd52058f141cba15cbcab66f56db19a6944dbef0"
+SERPAPI_API_KEY = st.secrets["SERPAPI_API_KEY"]
 
 # Helper function to clean text for matching
 def clean_words(text):
